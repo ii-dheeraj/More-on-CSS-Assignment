@@ -1,0 +1,15 @@
+ANSWER1.**Padding and Margin**:
+   - **Padding**: Padding is the space between the content of an element and its border. It creates internal space within an element. You use padding to increase the space between the content and the border of an element, providing visual breathing room and improving readability.
+   - **Margin**: Margin is the space outside the border of an element. It creates space between the element and other elements in the layout. You use margin to control the spacing between elements, creating separation and defining the layout of the page.
+
+ANSWER ..2. **Display Property**:
+   - The `display` property in CSS determines how an element is rendered in the document flow.
+   - **Inline**: An inline element only takes up as much width as necessary and does not force new lines. Examples include `<span>` and `<a>`.
+   - **Block**: A block element takes up the full width available and starts on a new line, pushing subsequent elements downwards. Examples include `<div>` and `<p>`.
+   - **Inline-block**: An inline-block element behaves like an inline element in that it does not force new lines but allows you to set a width and height like a block element. This is useful when you want elements to be inline but also be able to set their dimensions and margins.
+
+ANSWER 3. **min-height, min-width, max-height, and max-width**:
+   - **min-height**: Specifies the minimum height that an element can have. If the content is smaller than the minimum height, the element will expand to accommodate it. It prevents the element from becoming smaller than the specified value.
+   - **min-width**: Similar to `min-height`, but specifies the minimum width instead.
+   - **max-height**: Specifies the maximum height that an element can have. If the content exceeds this height, the element will become scrollable or otherwise constrained to the specified value, preventing it from growing beyond that point.
+   - **max-width**: Similar to `max-height`, but specifies the maximum width instead.
